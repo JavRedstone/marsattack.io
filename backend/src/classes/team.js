@@ -19,22 +19,22 @@ export class Team {
     static UPGRADES = [
         {
             maxBattery: 500,
-            maxResources: 25,
+            maxResources: 250,
             healthMultiplier: 1
         },
         {
             maxBattery: 750,
-            maxResources: 50,
+            maxResources: 500,
             healthMultiplier: 1.5
         },
         {
             maxBattery: 1000,
-            maxResources: 100,
+            maxResources: 1000,
             healthMultiplier: 2
         },
         {
             maxBattery: 1250,
-            maxResources: 150,
+            maxResources: 1500,
             healthMultiplier: 2.5
         }
     ];

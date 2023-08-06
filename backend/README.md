@@ -40,6 +40,17 @@ MarsAttacks.io is built using a NodeJS server / backend connected to a native Ja
 
 ![Game application structure for MarsAttacks.io](https://i.imgur.com/vZBCBsF.png)
 ##### Game application structure for MarsAttacks.io
+### Installation Guide:
+To run MarsAttacks.io, perform the following steps:
+#### Frontend:
+1. Navigate your terminal to the `./frontend` folder.
+2. Type: `http-server` inside the terminal.
+3. Your project should open at http://127.0.0.1:8080/
+#### Backend:
+1. Navigate your terminal to the `./backend` folder
+2. If no `node_modules` folder is present, run the command `npm install`.
+3. Once it is finished, run `npm start` in order to start the backend.
+4. The backend is located at http://localhost:3000/.
 ## Challenges I ran into
 
 The main challenge that I ran into was finding the right library — or no library to use — for drawing the game on the client side, since I was new to rendering games. I needed a client that was fast as well as easy to understand and use. I started with a basic canvas. Although it was easy to use, the game grinded to a halt after a few minutes of multiplayer, as a result of the quick refresh rate and the large amount of objects used. Next, I tried out using native WebGL to speed up the rendering, however the sheer complexity of drawing simple shapes (like the background) ruled this option out. Finally, I ended up using PixiJS, which is simple to use, and also fast as uses WebGL for rendering.

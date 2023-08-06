@@ -6,7 +6,7 @@ import Vector from 'vector2js';
 
 export class Base {
     static REGENERATION = 20;
-    static MAX_HEALTH = 1000;
+    static MAX_HEALTH = 10000;
     static RADIUS = 250;
 
     id = 0;
