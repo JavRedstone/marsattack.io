@@ -1,0 +1,23 @@
+{
+  "name": "marsattack-io",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 --experimental-specifier-resolution=node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "flatted": "^3.2.7",
+    "socket.io": "^4.7.1",
+    "vector2js": "^2.0.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^5.0.10"
+  }
+}

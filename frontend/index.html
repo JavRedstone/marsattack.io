@@ -1,0 +1,35 @@
+<!-- @author Javier Huang -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MarsAttack.io</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="background-image"></div>
+        <div id="center-box" class="center-box">
+            <h1>MarsAttack.io</h1>
+            <input type="text" id="name-input" class="name-input" placeholder="YOUR ROVER NAME" autocomplete="off">
+            <div>
+                <button id="play-button" class="play-button">Play</button>
+            </div>
+            <div class="social-links">
+                <a href="#" target="_blank">Discord</a><span>•</span>
+                <a href="#" target="_blank">Reddit</a><span>•</span>
+                <a href="#" target="_blank">Wiki</a><span>•</span>
+                <a href="#" target="_blank">Changelog</a>
+            </div>
+        </div>
+
+        <canvas id="game-canvas" class="game-canvas"></canvas>
+
+        <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/pixi.js@5.x/dist/pixi.min.js"></script>
+
+        <script src="game.js"></script>
+    </body>
+</html>
